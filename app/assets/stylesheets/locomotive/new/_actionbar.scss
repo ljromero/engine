@@ -12,7 +12,6 @@
   left: 0;
   z-index: 100;
   width: 100%;
-  max-width: 500px;
   background: $white;
   border-right: 1px solid $border-color-base;
   transition: left $base-transition-speed linear;
@@ -81,3 +80,11 @@
     box-shadow: 1px 0 10px rgba($black, .2);
   }
 }
+
+// =============================================================================
+
+// This code shouldn't be here
+.locomotive_content_entry_contenido .form-wrapper .wysihtml5-sandbox {
+  height: 600px;
+}
+
